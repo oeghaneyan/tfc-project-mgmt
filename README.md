@@ -4,7 +4,7 @@ This repository documents an example workflow for managing TFC/TFE projects that
 
 ## Current Challenge 
 
-As noted in the open issue [here](https://github.com/hashicorp/terraform-provider-tfe/issues/782) there is currently no project_id for pre-existing projects. This could be probelematic for teams who would like to integrate projects in their workflow and require a project id for those integrations. 
+As noted in the open issue [here](https://github.com/hashicorp/terraform-provider-tfe/issues/782) there is currently no project_id data block for pre-existing projects. This could be probelematic for teams who would like to integrate projects in their workflow and require a project id for those integrations. 
 
 ## Solution
 
