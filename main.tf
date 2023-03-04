@@ -4,7 +4,7 @@ provider "tfe" {
 }
 
 resource "tfe_project" "project" {
+  count = length(var.project_name)
   organization = var.org_name
-  for_each = var.project_name
-  name = each.name
+  name  = var.project_name[count.index]
 }
