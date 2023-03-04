@@ -17,7 +17,7 @@ variable "org_name" {
 
 variable "project_name" {
   description = "Name of the TFC project"
-  type        = map(any)
+  type        = object
   default = [
     {name = "ProjectA"},
     {name = "ProjectB"},
