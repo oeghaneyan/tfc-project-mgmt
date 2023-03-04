@@ -15,8 +15,25 @@ variable "org_name" {
   type        = string
 }
 
-variable "project_name" {
-  description = "Name of the TFC project"
-  type        = list(string)
-  default     = ["ProjectA", "ProjectB", "ProjectC"]
-}
+#variable "project_name" {
+#  description = "Name of the TFC project"
+#  type        = list(string)
+#  default     = ["ProjectA", "ProjectB", "ProjectC"]
+#}
+
+
+#variable "project_name" {
+#  description = "Map of TFC project names."
+#  type        = map(any)
+#  default = {
+#    projectx = {
+#      name = "projectx"
+#    },
+#    projecty = {
+#      name = "projecty"
+#    },
+#    projectz = {
+#      name = "projectz"
+#    }
+#  }
+#}
