@@ -17,10 +17,6 @@ variable "org_name" {
 
 variable "project_name" {
   description = "Name of the TFC project"
-  type        = object
-  default = [
-    {name = "ProjectA"},
-    {name = "ProjectB"},
-    {name = "ProjectC"}
-  ]
+  type        = list(string)
+  default     = ["ProjectA", "ProjectB", "ProjectC"]
 }
