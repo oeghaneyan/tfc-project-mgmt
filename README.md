@@ -1,4 +1,4 @@
-# Manage TFC/TFE Projects with a TF Output of the Project ID
+# TFC/TFE Project Managment with a TF Output of the Project ID
 
 This repository documents an example workflow for managing TFC/TFE projects that has an output of the project ID. 
 
