@@ -15,11 +15,11 @@ variable "org_name" {
   type        = string
 }
 
-#variable "project_name" {
-#  description = "Name of the TFC project"
-#  type        = list(string)
-#  default     = ["ProjectA", "ProjectB", "ProjectC"]
-#}
+variable "project_name" {
+  description = "Name of the TFC project"
+  type        = list(string)
+  default     = ["ProjectA", "ProjectB", "ProjectC"]
+}
 
 
 #variable "project_name" {
