@@ -4,7 +4,7 @@ provider "tfe" {
 }
 
 resource "tfe_project" "project" {
-  for_each = var.project_name
   organization = var.org_name
-  name = each.value
+  for_each = var.project_name
+  name = each.name
 }
