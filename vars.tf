@@ -17,16 +17,10 @@ variable "org_name" {
 
 variable "project_name" {
   description = "Name of the TFC project"
-  type        = map(string)
+  type        = map(any)
   default = [
-    {
-      name = "ProjectA"
-    },
-    {
-      name = "ProjectB"
-    },
-    {
-      name = "ProjectC"
-    }
+    {name = "ProjectA"},
+    {name = "ProjectB"},
+    {name = "ProjectC"}
   ]
 }
