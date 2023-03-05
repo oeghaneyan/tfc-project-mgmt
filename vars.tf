@@ -19,8 +19,8 @@ variable "project_list" {
   description = "Name of the TFC project"
   type        = list(string)
   default     = [
-    "Project X", 
-    "Project Y", 
-    "Project Z"
+    "ProjectX", 
+    "ProjectY", 
+    "ProjectZ"
   ]
 }
