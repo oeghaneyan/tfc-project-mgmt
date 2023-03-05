@@ -14,3 +14,8 @@ resource "tfe_project" "project" {
   for_each = toset(var.project_list)
   name     = each.key
 }
+
+resource "tfe_project" "project-test" {
+  organization = var.org_name
+  name     = project-test
+}
