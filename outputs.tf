@@ -1,4 +1,4 @@
-output "project_id" {
+output "project_id_list" {
   description = "IDs of each project created"
 #  for_each = toset(var.project_list)
   value       = tfe_project.project.id
