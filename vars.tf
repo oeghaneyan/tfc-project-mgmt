@@ -19,25 +19,8 @@ variable "project_list" {
   description = "Name of the TFC project"
   type        = list(string)
   default     = [
-    "ProjectX", 
-    "ProjectY", 
-    "ProjectZ"
+    "Project X", 
+    "Project Y", 
+    "Project Z"
   ]
 }
-
-
-#variable "project_name" {
-#  description = "Map of TFC project names."
-#  type        = map(any)
-#  default = {
-#    projectx = {
-#      name = "projectx"
-#    },
-#    projecty = {
-#      name = "projecty"
-#    },
-#    projectz = {
-#      name = "projectz"
-#    }
-#  }
-#}
