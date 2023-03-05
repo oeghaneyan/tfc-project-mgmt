@@ -17,5 +17,5 @@ resource "tfe_project" "project" {
 
 resource "tfe_project" "project-test" {
   organization = var.org_name
-  name     = project-test
+  name     = "project-test"
 }
