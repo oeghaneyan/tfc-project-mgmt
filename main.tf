@@ -4,16 +4,16 @@ provider "tfe" {
 }
 
 
-module "tfe_project" {
-  source     = "./modules/tfe_project"
-  organization = var.org_name
-  for_each = toset(var.project_list)
-  name     = each.key
-}
-
-
-#resource "tfe_project" "project" {
+#module "tfe_project" {
+#  source     = "./modules/tfe_project"
 #  organization = var.org_name
 #  for_each = toset(var.project_list)
 #  name     = each.key
 #}
+
+
+resource "tfe_project" "project" {
+  organization = var.org_name
+  for_each = toset(var.project_list)
+  name     = each.key
+}
