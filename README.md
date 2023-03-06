@@ -8,7 +8,7 @@ As noted in the open issue [here](https://github.com/hashicorp/terraform-provide
 
 ## Solution
 
-As shown in this repo, create all projects with Terraform and have a tf output for the project id, then share that output within the organization.
+As shown in this repo, create all projects with Terraform and have a tf output for the project id, share that output within the organization, then make a call to that output for the Project ID.
 
 ## Example of Leveraging Project ID Output
 
