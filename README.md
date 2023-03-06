@@ -10,7 +10,7 @@ As noted in the open issue [here](https://github.com/hashicorp/terraform-provide
 
 Create all projects with with TF and have a tf output for the project id, then share that output within the organization.
 
-## Example of leveraging Project ID Output
+## Example of Leveraging Project ID Output
 
 The below repo references the output from this workspace to create a new workspace. Most notably, it shows how to retrieve the id for a given project that was created from this repository. 
 
