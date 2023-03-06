@@ -32,10 +32,6 @@ https://github.com/omeeomi/tfc-project-list-test/
 |------|---------|
 | <a name="provider_tfe"></a> [tfe](#provider\_tfe) | n/a |
 
-### Modules
-
-No modules used.
-
 ### Resources
 
 | Name | Type |
