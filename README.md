@@ -24,7 +24,7 @@ https://github.com/omeeomi/tfc-project-list-test/
 * Workspace outputs need to be shared with other workspaces that need access to project_id
 * The API token used needs to have permissions to create/manage workspaces & projects
 
-## Overview of Terraform Code:
+## Documentation of Terraform Code Used:
 
 ### Providers
 
