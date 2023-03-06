@@ -18,7 +18,8 @@ https://github.com/omeeomi/tfc-project-list-test/
 
 **Considerations**
 * Projects created outside this workspace will not have a Project ID recorded, so projects should not be created through UI
-* To enforce all projects be crated through IaC, I reccomend to disable permissions to create projects manually in UI
+* "default" project is pre-existing so the Project ID can not be logged in the output and used in further workflows via this solution 
+* To enforce all projects be created through IaC, manual project creation via the UI can be disabled
 * Ideally all projects are created from a single repository to simplify things
 * Workspace outputs need to be shared with other workspaces that need access to project_id
 * The API token used needs to have permissions to create/manage workspaces & projects
