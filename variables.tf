@@ -21,6 +21,7 @@ variable "project_list" {
   default     = [
     "ProjectX", 
     "ProjectY", 
-    "ProjectZ"
+    "ProjectZ",
+    "ProjectA"
   ]
 }
