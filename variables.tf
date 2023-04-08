@@ -20,6 +20,6 @@ variable "project_list" {
   type        = list(string)
   default     = [
     "ProjectX", 
-    "Bulk Workspace Creation"
+    "Test - Bulk Workspace Creation"
   ]
 }
