@@ -18,8 +18,7 @@ variable "org_name" {
 variable "project_list" {
   description = "Name of the TFC project"
   type        = list(string)
-  default     = [
-    "ProjectX", 
+  default     = [ 
     "Test - Project Creation"
   ]
 }
